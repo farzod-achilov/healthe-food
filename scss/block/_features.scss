@@ -23,6 +23,10 @@
     color: #150c01;
   }
 
+  &__wrapper {
+    display: flex;
+  }
+
   &__card {
     max-width: 300px;
   }
