@@ -1,0 +1,33 @@
+.features {
+  &__caption {
+    @include resetContent;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #dc780b;
+    opacity: 0.7;
+  }
+
+  &__title {
+    @include resetContent;
+    text-align: center;
+    font-family: "Philosopher";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #150c01;
+  }
+
+  &__wrapper {
+    display: flex;
+  }
+
+  &__card {
+    max-width: 300px;
+  }
+}

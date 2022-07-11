@@ -1,0 +1,28 @@
+.header {
+  &__inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__nav {
+    align-items: center;
+    display: flex;
+    @include resetUl;
+    a:not(.btn) {
+      text-decoration: none;
+      color: #dc780b;
+    }
+    li:nth-child(1) {
+      margin-left: 35px;
+    }
+
+    li:not(.fist-child) {
+      margin-left: 40px;
+    }
+
+    li:last-child {
+      margin-right: auto;
+    }
+  }
+}
